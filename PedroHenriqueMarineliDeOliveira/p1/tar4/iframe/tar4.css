@@ -1,0 +1,38 @@
+.acesso {
+    font-family: 'Tahoma';
+    color: blue;
+    font-size: 14px;
+}
+
+body {
+    background-color: #FFDEAD;
+}
+
+titulo{
+    font-family: 'Arial';
+    color:red;
+    font-size: 16px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+texto{
+    font-family: 'Tahoma';
+    font-size: 12px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+item{
+    font-family: "Courier New";
+    font-size: 14px;
+}
+table, tr, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+
