@@ -1,13 +1,31 @@
 <!DOCTYPE html>
+<html>
 <head>
     <link rel="stylesheet" href="tar4.css">
     <style type="text/css">
-        table{border: none;}
+        table { border: none; }
+        .frame-container {
+            border: none;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .top-frame {
+            height: 100px;
+            border: none;
+        }
+        .bottom-frame {
+            flex-grow: 1;
+            border: none;
+        }
     </style>
-    <title>tarefa 4</title>
+    <title>Tarefa 4</title>
 </head>
-<frameset rows="100px, *" border="0"> //coloquei 100px ao invés de 80 pois estava cortando o menu.
-    <frame src="menu.html" name="Q1"  scrolling="no"; noresize>
-    <frame src="abertura.html" name="Q2">
-</frameset>
+<body>
+    <div class="frame-container">
+        <iframe src="menu.html" class="top-frame" name="Q1" scrolling="no" frameborder="0"></iframe>
+        <iframe src="identifica.html" class="bottom-frame" name="Q2" frameborder="0"></iframe>
+    </div>
+</body>
 </html>
