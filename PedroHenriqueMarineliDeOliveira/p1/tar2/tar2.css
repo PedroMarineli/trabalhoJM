@@ -1,0 +1,27 @@
+.acesso {
+    font-family: 'Tahoma';
+    color: blue;
+    font-size: 14px;
+}
+
+body {
+    background-color: #FFDEAD;
+}
+
+.titulo{
+    font-family: 'Arial';
+    color:red;
+    font-size: 16px;
+}
+
+.texto{
+    font-family: 'Tahoma';
+    font-size: 12px;
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
